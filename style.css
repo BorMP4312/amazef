@@ -19,6 +19,8 @@ margin: auto;
 header {
 background: white;
 overflow: auto;
+margin-bottom: 3px;
+padding: 40px;
 }
 header h1 {
 float: left;
@@ -32,6 +34,7 @@ width: 285px;
 main { 
 	background: white; 
 	overflow: auto;
+	padding: 20px;
 }
 main .main_part {
 	float: left;
@@ -45,11 +48,15 @@ main h2 {
 float: left;
 width: 570px;
 font-size: 150%;
+margin-top: 30px;
+margin-bottom: 10px;
 }
 main h3 {
 float: left;
 width: 570px;
 font-size: 120%;
+margin-top: 20px;
+margin-bottom: 10px;
 }
 footer { 
 	overflow: auto;
@@ -66,8 +73,20 @@ footer h5 {
 float: left;
 width: 570px;
 font-size: 140%;
+margin-top: 30px;
+margin-bottom: 20px;
 }
 h1, h2, h3, h4 {
 	font-family: Ubuntu;
 	font-size: 100%;
+
+}
+a {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
 }
