@@ -26,7 +26,16 @@ header nav {
 float: right;
 width: 285px;
 }
-main img {
-float: right;
-width: 285px;
+main { 
+	background: white; 
+	overflow: auto;
 }
+main .main_block {
+	float: left;
+	width: 570px;
+}
+main .image {
+	float: right;	
+	width: 285px;
+}
+
