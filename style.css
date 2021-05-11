@@ -30,11 +30,22 @@ main {
 	background: white; 
 	overflow: auto;
 }
-main .main_block {
+main .main_part {
 	float: left;
 	width: 570px;
 }
 main .image {
+	float: right;	
+	width: 285px;
+}
+footer { 
+	overflow: auto;
+}
+footer .contact {
+	float: left;
+	width: 570px;
+}
+footer .sitemap {
 	float: right;	
 	width: 285px;
 }
