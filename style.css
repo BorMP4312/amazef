@@ -98,9 +98,9 @@ margin-top: 20px;
 margin-bottom: 10px;
 }
 .tabs a span {
-	display: inline block; 
+	display: inline-block; 
 	border-radius: 5px 5px 0 0; 
-	width: 100px; margin right: 
+	width: 100px; margin-right: 
 	10px; 
 	text-align: center; 
 	background: #ddd; 
