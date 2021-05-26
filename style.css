@@ -22,7 +22,7 @@ header h1{
 header nav{
 	float: right;
 	width: 285px;
-	font-size: large;
+	font-size: 100%;
 }
 main{
 	background: white;
