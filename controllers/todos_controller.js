@@ -1,5 +1,5 @@
-var ToDo = require("../models/todo.js"),
-	User = require("../models/user.js"),
+var ToDo = require("C:/Users/maxb5/Projects/Amazeriffic/models/todo.js"),
+	User = require("C:/Users/maxb5/Projects/Amazeriffic/models/user.js"),
 	ToDosController = {};
 
 ToDosController.index = function (req, res) { 

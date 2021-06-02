@@ -1,5 +1,5 @@
-var User = require("../models/user.js"), 
-    ToDo = require("../models/todo.js"),
+var User = require("C:/Users/maxb5/Projects/Amazeriffic/models/user.js"), 
+    ToDo = require("C:/Users/maxb5/Projects/Amazeriffic/models/todo.js"),
 	UsersController = {},
 	mongoose = require("mongoose");
 
@@ -21,7 +21,7 @@ UsersController.show = function(req, res) {
 	if (err) {
 		console.log(err);
 	} else if (result.length !== 0) {
-		res.sendfile('./client/list.html');
+		res.sendfile('C:/Users/maxb5/Projects/Amazeriffic/client/list.html');
 	} else {
 	  res.send(404);
 	}
